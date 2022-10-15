@@ -35,3 +35,11 @@ For the present and the future, we do a wide long-term survey and we decide to u
 
         You see a homeless,
     Be a part of the solution!
+    
+    
+    *****************************************************************************************
+    
+    Live Demo:
+    Because we puplish our maps by educational accounts at ArcGIS online by ESRI and unfortunatley they are out of service now, 
+    this is a live demo on our website ;)
+    https://drive.google.com/drive/folders/1cDhaOQYi_ALy8Iayz-ridLP9k-Ip3ko0?usp=sharing
