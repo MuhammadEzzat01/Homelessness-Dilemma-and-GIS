@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Maps</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.24/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.24/"></script>
+    <link rel="stylesheet" href="api.css">
+    <!-- Icon -->
+    <link rel="icon" href="../images/homeless_logo.jpeg">
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"/>
+</head>
+
+<body> 
+    <div>
+        <h1 id="h1_title"> Maps Using GIS </h1>
+    </div>
+
+    <div>
+        <p class="p_text"> The question that will be answered is Where should programs will implement to prevent 
+            homelessness?. Our study depended on 3 factors which lead to homelessness. There are :
+        </p>
+    </div>
+
+    <!-- 1 -->
+    <div>
+        <h3 class="h2_title"> 1-Unemployment Factor</h3>
+        <p  class="p_text">
+            Using Hot Spot Analysis represent priority locations for projects to prevent homelessness.
+        </p>
+    </div>
+    <div id="map1"></div>        <!-- Map 1  -->
+    <hr/>
+
+    <!-- 2 -->
+    <div>
+        <h3 class="h2_title"> 2- Purchasing Rate Factor </h3>
+        <p  class="p_text">
+            Using Hot Spot Analysis represent priority locations for projects to prevent homelessness.
+        </p>
+    </div>
+    <div id="map2"></div>       <!-- Map 2  -->
+    <hr/>
+
+    <!-- 3 -->
+    <div>
+        <h3 class="h2_title"> 3- Household Size Factor </h3>
+        <p  class="p_text">
+            Using Hot Spot Analysis represent priority locations for projects to prevent homelessness.
+        </p>
+    </div>
+    <div id="map3"></div>       <!-- Map 3  -->
+    <hr>
+    <hr>
+
+    <!-- 4 -->
+    <div>
+        <h2 class="h2_title">Risk Map</h2>
+        <p class="p_text">
+            Then We answer the question of where people will become homeless, by creating a risk map. The risk factors analyzed include 
+            Unemployment, Purchasing Rate, Household Average Size, Population of Illiterate people. Locations with one or more risk factors are much more likely to generate new homelessness.
+        </p>
+    </div>
+    <div id="map4"></div>       <!-- Map 4  -->
+    <hr>
+    <hr>
+
+    <!-- 5 -->
+    <div>
+        <h3 class="h2_title"> Hot Spot  </h3>
+        <p  class="p_text">
+            Using Hot Spot Analysis to answer the Question of Where the homelessness are placed in? 
+        </p>
+    </div>
+    <div id="map5"></div>       <!-- Map 5  -->
+    <hr>
+
+    <!-- 6 -->
+    <div>
+        <h3 class="h2_title"> Aggregation  </h3>
+        <p  class="p_text">
+            Show the Number of People in each Polygon which connected to the Hot Spot.
+        </p>
+    </div>
+    <div id="map6"></div>       <!-- Map 6  -->
+    <hr>
+    <hr>
+
+    <!-- 7 -->
+    <div>
+        <h3 class="h2_title"> Service Area  </h3>
+        <p  class="p_text">
+            It shows the Number of Shelters which serve the studying area.
+        </p>
+    </div>
+    <div id="map7"></div>       <!-- Map 7  -->
+       
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="copyright">
+                Copyright &copy; 2022, ITI - Geoinformatics | 3 Months Nasr-city - All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+<script src="api.js"></script>
+<script src="serviceArea.js"></script>
+<script src="hotspot.js"></script>
+
+</html>

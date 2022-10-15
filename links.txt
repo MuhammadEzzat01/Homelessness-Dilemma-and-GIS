@@ -1,0 +1,8 @@
+story map
+https://storymaps.arcgis.com/stories/e9ca299002fe4e3da858a61f9848568a
+
+survey
+https://survey123.arcgis.com/share/51c6042121fa4c5eb90662acdb5126bb
+
+web app builder
+https://learngis2.maps.arcgis.com/apps/webappviewer/index.html?id=afc85c07705c422ca4bb178334ac3913

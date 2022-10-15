@@ -1,0 +1,69 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: repeating-linear-gradient(rgba(236, 247, 244, 0.877), rgba(231, 239, 245, 0.911));
+
+    /* background-image: url("../images/bg1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%; */
+}
+#h1_title{
+    background-color: #ebebeb;
+    color: #a10a67;
+    text-align: center;
+    height: 50px;
+    width:100%;
+    text-align: center;
+    font-family: "Muli", serif;
+}
+
+.h2_title{
+    color:#0d3299;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 5000;
+    font-family: "Josefin Slab", serif;
+}
+
+.p_text{
+    padding: 10px;
+    margin: 5px;
+    font-size: 23px;
+    color: rgb(6, 6, 7);
+    font-family: "Muli", serif;
+}
+
+#map1,#map2,#map3,#map4,#map5,#map6,#map7{
+    height: 600px;
+    width: 1500px;
+    /* position: relative; */
+}
+
+/* footer */
+.footer {
+    margin-top: 1%;
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.copyright {
+    font-family: "Baloo Da 2", serif;
+    font-size: .9rem;
+    color: #a7a7a7;
+}
